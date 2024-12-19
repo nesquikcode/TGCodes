@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='tgcodes',
-    version='0.1.01',
+    version='0.1.1',
     description='API Client for https://gateway.telegram.org/.',
     author='nesquikcode',
     author_email='nesquik@nishine.ru',
