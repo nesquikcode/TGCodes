@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='tgcodes',
-    version='0.1.0',
+    version='0.1.01',
     description='API Client for https://gateway.telegram.org/.',
     author='nesquikcode',
     author_email='nesquik@nishine.ru',
@@ -11,5 +11,6 @@ setup(
     install_requires=[
         'requests',
     ],
-    license='MIT'
+    license='MIT',
+    long_description=open('README.md').read(),
 )

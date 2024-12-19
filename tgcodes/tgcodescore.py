@@ -1,5 +1,5 @@
 import requests
-from tgctypes import *
+from .tgctypes import *
 from typing import Union
 
 class TGCodesManager:
